@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigasi{
+    background-color: #40534C;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: sticky;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 900px;
+    padding-top: 27px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a :hover {
+    color: #40534C;
+    font-style: italic;
+}
+
+.banner {
+    background-color: #677D6A;
+    height:700px;
+    text-align: center;
+    color: black;
+}
+
+.banner img{
+    border-radius: 50px;
+    height: 200px;
+    border: 6px solid #677D6A;
+    margin-top: 70px;
+}
+
+.banner h1{
+    margin-top: 10px;
+}
+
+.banner p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 30px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #677D6A;
+    border: 1px solid white;
+}
+
+h1 span::before {
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translate(-50%);
+    color: black;
+    font-family: 70px;
+
+
+}
+
+.box-pendidikan{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    align-content: center;
+}
+
+.Box-kiri img, .Box-Tengah img, .Box-Akhir img {
+border-radius: 40px;
+height: 250px;
+border: 0px solid #DAD4B5;
+margin-top: 20px;
+text-align: center;
+padding: 0px;
+}
+
+.Box-kiri, .Box-Tengah, .Box-Akhir {
+    width: 300px;
+    height: 210px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 5pxpx 5px;
+    padding-bottom: 200px;
+    margin: 70px 20px 20px 70px;
+    float: left;
+    border-radius: 10px;
+}
+
+.Box-kiri:hover, .Box-Tengah:hover, .Box-Akhir:hover {
+    background-color: #DAD4B5;
+    color: black;
+}
+
+.box-pendidikan h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0 10px;
+}
+
+.Box-Softskill{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    align-content: center;
+}
+
+.Microsoft, .Python, .Photoshop {
+    width: 300px;
+    height: 210px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 5pxpx 5px;
+    padding-bottom: 200px;
+    margin: 80px 50px 50px 70px;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.Microsoft img, .Python img, .Photoshop img{
+    border-radius: 40px;
+    height: 200px;
+    border: 0px solid #DAD4B5;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px;
+}
+
+.Microsoft:hover, .Python:hover, .P:hover {
+    background-color: #DAD4B5;
+    color: black;
+}
+
+.box-kontak {
+    color: black;
+    margin-top: 100px;
+    width: 300px;
+    height: 210px;
+    padding-top: 5pxpx 5px;
+    padding-bottom: 300px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 400px;
+
+}
+
+.box-kontak img{
+    border-radius: 40px;
+    height: 250px;
+    border: 0px solid #DAD4B5;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px;
+}
+
+.footer {
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 10PX;  
+}
